@@ -1,5 +1,5 @@
 push_display:
-  url: "http://192.168.1.17/api/display/draw"
+  url: "http://10.0.4.20/api/display/draw"
   method: POST
   content_type: "application/json"
   payload: >
