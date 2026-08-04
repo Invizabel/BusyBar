@@ -9,3 +9,6 @@
 
 #### Notes:
 * Supply your home location coordinates to get accurate weather
+
+###### Todo:
+* Add asynchronous GET requests to the various API features 
