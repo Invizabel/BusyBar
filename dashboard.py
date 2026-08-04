@@ -56,8 +56,8 @@ while True:
                     "color": "#FFFFFFFF",
                     "width": 128,
                     "scroll_rate": 1000,
-                    "scroll_start_delay": 1000,
-                    "scroll_repeat_delay": 2500,
+                    "scroll_start_delay": 0,
+                    "scroll_repeat_delay": 0,
                     "display": "front"
                 }
                 ]
