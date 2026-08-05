@@ -12,7 +12,7 @@ rest_command: !include BusyBar/rest_commands.yaml
 automation: !include BusyBar/automations.yaml
 ```
 * Save everything
-* Now, Settings > Developer tools > Check configuration (Do not proceed if it fails, check your files/code) > Restart > Restart Home Assistant
+* Now, Settings > Developer tools > Check configuration (Do not proceed if it fails, check your files/code) > Restart > Quick reload
 * Note 1: Make sure you change the IP in rest_commands.yml that you created to the LAN IP of your Busy Bar
 * Note 2: It's a good idea to give your Busy Bar a static IP (check your routers help page for info on how to do this)
 
