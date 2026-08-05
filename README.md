@@ -18,7 +18,7 @@ automation: !include BusyBar/automations.yaml
 * Note 4: To find an integration, go to Settings > Developer tools > States > filter by integration you want
 * Note 5: Home Assistant supports Jinja templates
 
-#### Features:
+#### API (PC/Mac):
 * ISS Tracker
 * Current Time
 * Current Forecast ie- sunny, cloudy, etc (United States only)
