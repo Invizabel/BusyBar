@@ -9,7 +9,7 @@ push_display:
       "elements": [
         {
           "id": "0",
-          "timeout": 90,
+          "timeout": 0,
           "align": "center",
           "x": 16,
           "y": 8,
