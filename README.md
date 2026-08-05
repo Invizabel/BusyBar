@@ -4,7 +4,7 @@
 * Needs File editor installed on Home Assistant
 * Settings > Apps > File editor > Open Web UI
 * Create a folder titled "BusyBar" in the "/homeassistant/" directory
-* Then create files called "automations.yaml" and "rest_commands.yaml" and copy and paste the relevant code
+* Then create files called "automations.yaml" and "rest_commands.yaml" inside the BusyBar folder and copy and paste the relevant code
 * Then, in "/homeassistant/configuration.yaml" at the bottom add:
 ```
 rest_command: !include BusyBar/rest_commands.yaml
