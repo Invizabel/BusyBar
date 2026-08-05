@@ -14,7 +14,7 @@ push_display:
           "x": 16,
           "y": 8,
           "type": "text",
-          "text": "Hello from Home Assistant!",
+          "text": "Powered by Home Assistant! Time: {{ now().strftime('%H:%M') }} Weather: {{ state_attr('weather.forecast_home', 'temperature') }}° {{ states('weather.forecast_home') }}",
           "font": "normal",
           "color": "#FFFFFFFF",
           "width": 128,
