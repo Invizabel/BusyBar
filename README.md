@@ -15,6 +15,7 @@ automation: !include BusyBar/automations.yaml
 * Now, Settings > Developer tools > Check configuration (Do not proceed if it fails, check your files/code) > Restart > Quick reload
 * Note 1: Make sure you change the IP in rest_commands.yml that you created to the LAN IP of your Busy Bar
 * Note 2: It's a good idea to give your Busy Bar a static IP (check your routers help page for info on how to do this)
+* Note 3: Example YAML file uses The National Weather Service integration in Home Assistant
 
 #### Features:
 * ISS Tracker
