@@ -1,7 +1,6 @@
 ## Busy Bar Smart Dashboard Project
 
 #### HA (Home Assistant):
-* WIP
 * Needs File editor installed on Home Assistant
 * Settings > Apps > File editor > Open Web UI
 * Create a folder titled "BusyBar" in the "/homeassistant/" directory
