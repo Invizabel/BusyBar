@@ -3,16 +3,11 @@
 #### HA (Home Assistant):
 * Needs File editor installed on Home Assistant
 * Settings > Apps > File editor > Open Web UI
-* Create a folder titled "BusyBar" in the "/homeassistant/" directory
-* Then create files called "automations.yaml" and "rest_commands.yaml" inside the BusyBar folder and copy and paste the relevant code
-* Then, in "/homeassistant/configuration.yaml" at the bottom add:
-```
-rest_command: !include BusyBar/rest_commands.yaml
-automation: !include BusyBar/automations.yaml
-```
+* In "/homeassistant/configuration.yaml" at the bottom add the code from configurations.yaml
+* In "/homeassistant/automations.yaml" at the bottom add the code from automations.yaml
 * Save everything
 * Now, Settings > Tools > Check configuration (Do not proceed if it fails, check your files/code) > Restart > Quick reload
-* Note 1: Make sure you change the IP in rest_commands.yml that you created to the LAN IP of your Busy Bar
+* Note 1: Make sure you change the IP in configuration.yaml that you created to the LAN IP of your Busy Bar
 * Note 2: It's a good idea to give your Busy Bar a static IP (check your routers help page for info on how to do this)
 * Note 3: Example YAML file uses The National Weather Service integration in Home Assistant
 * Note 4: To find an integration, go to Settings > Developer tools > States > filter by integration you want
