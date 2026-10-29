@@ -1,0 +1,8 @@
+- alias: BusyBar
+  id: busybar
+  trigger:
+    - platform: time_pattern
+      minutes: "/1"
+
+  action:
+    - service: rest_command.push_display
