@@ -1,0 +1,24 @@
+rest_command:
+  push_display:
+    url: "http://192.168.1.2/api/display/draw"
+    method: POST
+    content_type: "application/json"
+    payload: >
+      {
+        "application_name": "my_app",
+        "elements": [
+          {
+            "id": "0",
+            "timeout": 0,
+            "align": "center",
+            "x": 80,
+            "y": 8,
+            "type": "text",
+            "text": "{{ now().strftime('%H:%M:%S') }}",
+            "font": "normal",
+            "color": "#00FFFFFF",
+            "width": 128,
+            "display": "front"
+          }
+        ]
+      }

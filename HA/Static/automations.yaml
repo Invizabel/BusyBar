@@ -1,0 +1,7 @@
+  id: busybar
+  alias: BusyBar
+  triggers:
+  - trigger: time_pattern
+    seconds: /1
+  actions:
+  - action: rest_command.push_display

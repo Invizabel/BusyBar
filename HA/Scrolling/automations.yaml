@@ -1,4 +1,4 @@
-- alias: BusyBar
+  - alias: BusyBar
   id: busybar
   trigger:
     - platform: time_pattern
