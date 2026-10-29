@@ -16,7 +16,7 @@ rest_command:
             "type": "text",
             "text": "{{ now().strftime('%H:%M:%S') }}",
             "font": "normal",
-            "color": "#00FFFFFF",
+            "color": "#FFFFFFFF",
             "width": 128,
             "display": "front"
           }
