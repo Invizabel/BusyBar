@@ -9,8 +9,9 @@
 * Note 1: Make sure you change the IP in configuration.yaml that you created to the LAN IP of your Busy Bar
 * Note 2: It's a good idea to give your Busy Bar a static IP (check your routers help page for info on how to do this)
 * Note 3: Example YAML file uses The National Weather Service integration in Home Assistant
-* Note 4: To find an integration, go to Settings > Developer tools > States > filter by integration you want
+* Note 4: To find an integration, go to Settings > Tools > States > filter by integration you want
 * Note 5: Home Assistant supports Jinja templates
+* Note 6: Color is in RGBA format, i.e.- Red is #FF0000FF (255, 0, 0, 255), Cyan is #00FFFFFF (0, 255, 255, 255), etc.
 
 #### API (PC/Mac):
 * ISS Tracker
